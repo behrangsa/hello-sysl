@@ -1,0 +1,8 @@
+Hello:
+    @package="Hello"
+    /hello:
+        GET:
+            return ok <: Message
+
+    !type Message:
+        body <: string
